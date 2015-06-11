@@ -1,6 +1,6 @@
 class Expression
 
-  attr_accessor :raw
+  attr_accessor :raw, :result
 
   def initialize(raw)
     @raw = raw
